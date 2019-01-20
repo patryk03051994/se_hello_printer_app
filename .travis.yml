@@ -8,3 +8,6 @@ instal:
 
 script:
   - make test
+  - make docker_build
+services:
+  - docker
